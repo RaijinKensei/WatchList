@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "VoQnBYmIMcA=",
+  "dgSpecHash": "GVf0l3Kuvmo=",
   "success": true,
-  "projectFilePath": "C:\\Users\\Utente\\source\\repos\\MovieWatchlist.Api\\MovieWatchlist.Api.csproj",
+  "projectFilePath": "C:\\Users\\Utente\\source\\repos\\WatchList\\MovieWatchlist.Api\\MovieWatchlist.Api.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Utente\\.nuget\\packages\\azure.core\\1.38.0\\azure.core.1.38.0.nupkg.sha512",
     "C:\\Users\\Utente\\.nuget\\packages\\azure.identity\\1.11.4\\azure.identity.1.11.4.nupkg.sha512",

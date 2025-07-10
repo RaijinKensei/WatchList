@@ -7,6 +7,7 @@ namespace MovieWatchlist.Api.Controllers
 {
     [ApiController]
     [Route("api/[controller]")]
+    
     public class SearchController : ControllerBase
     {
 

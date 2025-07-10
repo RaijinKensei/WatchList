@@ -14,11 +14,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Utente\\source\\repos\\MovieWatchlist\\MovieWatchlist.Web.csproj",
+      "projectUniqueName": "C:\\Users\\Utente\\source\\repos\\WatchList\\MovieWatchlist\\MovieWatchlist.Web.csproj",
       "projectName": "MovieWatchlist.Web",
-      "projectPath": "C:\\Users\\Utente\\source\\repos\\MovieWatchlist\\MovieWatchlist.Web.csproj",
+      "projectPath": "C:\\Users\\Utente\\source\\repos\\WatchList\\MovieWatchlist\\MovieWatchlist.Web.csproj",
       "packagesPath": "C:\\Users\\Utente\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Utente\\source\\repos\\MovieWatchlist\\obj\\",
+      "outputPath": "C:\\Users\\Utente\\source\\repos\\WatchList\\MovieWatchlist\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

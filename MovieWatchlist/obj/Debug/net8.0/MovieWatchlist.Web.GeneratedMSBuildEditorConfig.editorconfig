@@ -9,49 +9,49 @@ build_property.EnforceExtendedAnalyzerRules =
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = MovieWatchlist.Web
 build_property.RootNamespace = MovieWatchlist.Web
-build_property.ProjectDir = C:\Users\Utente\source\repos\MovieWatchlist\
+build_property.ProjectDir = C:\Users\Utente\source\repos\WatchList\MovieWatchlist\
 build_property.EnableComHosting = 
 build_property.EnableGeneratedComInterfaceComImportInterop = 
 build_property.RazorLangVersion = 8.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
-build_property.MSBuildProjectDirectory = C:\Users\Utente\source\repos\MovieWatchlist
+build_property.MSBuildProjectDirectory = C:\Users\Utente\source\repos\WatchList\MovieWatchlist
 build_property._RazorSourceGeneratorDebug = 
 build_property.EffectiveAnalysisLevelStyle = 8.0
 build_property.EnableCodeStyleSeverity = 
 
-[C:/Users/Utente/source/repos/MovieWatchlist/Views/Home/About.cshtml]
+[C:/Users/Utente/source/repos/WatchList/MovieWatchlist/Views/Home/About.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxBYm91dC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Utente/source/repos/MovieWatchlist/Views/Home/Index.cshtml]
+[C:/Users/Utente/source/repos/WatchList/MovieWatchlist/Views/Home/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Utente/source/repos/MovieWatchlist/Views/Movies/Index.cshtml]
+[C:/Users/Utente/source/repos/WatchList/MovieWatchlist/Views/Movies/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTW92aWVzXEluZGV4LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Utente/source/repos/MovieWatchlist/Views/Movies/Result.cshtml]
+[C:/Users/Utente/source/repos/WatchList/MovieWatchlist/Views/Movies/Result.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTW92aWVzXFJlc3VsdC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Utente/source/repos/MovieWatchlist/Views/Shared/Error.cshtml]
+[C:/Users/Utente/source/repos/WatchList/MovieWatchlist/Views/Shared/Error.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Utente/source/repos/MovieWatchlist/Views/Shared/_ValidationScriptsPartial.cshtml]
+[C:/Users/Utente/source/repos/WatchList/MovieWatchlist/Views/Shared/_ValidationScriptsPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Utente/source/repos/MovieWatchlist/Views/_ViewImports.cshtml]
+[C:/Users/Utente/source/repos/WatchList/MovieWatchlist/Views/_ViewImports.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Utente/source/repos/MovieWatchlist/Views/_ViewStart.cshtml]
+[C:/Users/Utente/source/repos/WatchList/MovieWatchlist/Views/_ViewStart.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Utente/source/repos/MovieWatchlist/Views/Shared/_Layout.cshtml]
+[C:/Users/Utente/source/repos/WatchList/MovieWatchlist/Views/Shared/_Layout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = b-qamvfb8b1l

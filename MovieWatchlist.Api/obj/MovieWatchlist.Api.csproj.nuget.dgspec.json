@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Utente\\source\\repos\\MovieWatchlist.Api\\MovieWatchlist.Api.csproj": {}
+    "C:\\Users\\Utente\\source\\repos\\WatchList\\MovieWatchlist.Api\\MovieWatchlist.Api.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Utente\\source\\repos\\MovieWatchlist.Api\\MovieWatchlist.Api.csproj": {
+    "C:\\Users\\Utente\\source\\repos\\WatchList\\MovieWatchlist.Api\\MovieWatchlist.Api.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Utente\\source\\repos\\MovieWatchlist.Api\\MovieWatchlist.Api.csproj",
+        "projectUniqueName": "C:\\Users\\Utente\\source\\repos\\WatchList\\MovieWatchlist.Api\\MovieWatchlist.Api.csproj",
         "projectName": "MovieWatchlist.Api",
-        "projectPath": "C:\\Users\\Utente\\source\\repos\\MovieWatchlist.Api\\MovieWatchlist.Api.csproj",
+        "projectPath": "C:\\Users\\Utente\\source\\repos\\WatchList\\MovieWatchlist.Api\\MovieWatchlist.Api.csproj",
         "packagesPath": "C:\\Users\\Utente\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Utente\\source\\repos\\MovieWatchlist.Api\\obj\\",
+        "outputPath": "C:\\Users\\Utente\\source\\repos\\WatchList\\MovieWatchlist.Api\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
