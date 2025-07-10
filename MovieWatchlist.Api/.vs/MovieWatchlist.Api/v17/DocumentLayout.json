@@ -1,0 +1,85 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Utente\\source\\repos\\MovieWatchlist.Api\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{0E6A7868-8ABD-4EFA-BEBA-3CAD23CC7209}|MovieWatchlist.Api.csproj|c:\\users\\utente\\source\\repos\\moviewatchlist.api\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{0E6A7868-8ABD-4EFA-BEBA-3CAD23CC7209}|MovieWatchlist.Api.csproj|solutionrelative:properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0E6A7868-8ABD-4EFA-BEBA-3CAD23CC7209}|MovieWatchlist.Api.csproj|c:\\users\\utente\\source\\repos\\moviewatchlist.api\\controllers\\searchcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0E6A7868-8ABD-4EFA-BEBA-3CAD23CC7209}|MovieWatchlist.Api.csproj|solutionrelative:controllers\\searchcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0E6A7868-8ABD-4EFA-BEBA-3CAD23CC7209}|MovieWatchlist.Api.csproj|c:\\users\\utente\\source\\repos\\moviewatchlist.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0E6A7868-8ABD-4EFA-BEBA-3CAD23CC7209}|MovieWatchlist.Api.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0E6A7868-8ABD-4EFA-BEBA-3CAD23CC7209}|MovieWatchlist.Api.csproj|c:\\users\\utente\\source\\repos\\moviewatchlist.api\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{0E6A7868-8ABD-4EFA-BEBA-3CAD23CC7209}|MovieWatchlist.Api.csproj|solutionrelative:appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "launchSettings.json",
+              "DocumentMoniker": "C:\\Users\\Utente\\source\\repos\\MovieWatchlist.Api\\Properties\\launchSettings.json",
+              "RelativeDocumentMoniker": "Properties\\launchSettings.json",
+              "ToolTip": "C:\\Users\\Utente\\source\\repos\\MovieWatchlist.Api\\Properties\\launchSettings.json",
+              "RelativeToolTip": "Properties\\launchSettings.json",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAAAwAAAAfAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-07-08T17:34:03.291Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\Utente\\source\\repos\\MovieWatchlist.Api\\appsettings.json",
+              "RelativeDocumentMoniker": "appsettings.json",
+              "ToolTip": "C:\\Users\\Utente\\source\\repos\\MovieWatchlist.Api\\appsettings.json",
+              "RelativeToolTip": "appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-07-08T17:22:20.181Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\Utente\\source\\repos\\MovieWatchlist.Api\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "C:\\Users\\Utente\\source\\repos\\MovieWatchlist.Api\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAhAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-08T17:21:08.993Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "SearchController.cs",
+              "DocumentMoniker": "C:\\Users\\Utente\\source\\repos\\MovieWatchlist.Api\\Controllers\\SearchController.cs",
+              "RelativeDocumentMoniker": "Controllers\\SearchController.cs",
+              "ToolTip": "C:\\Users\\Utente\\source\\repos\\MovieWatchlist.Api\\Controllers\\SearchController.cs",
+              "RelativeToolTip": "Controllers\\SearchController.cs",
+              "ViewState": "AgIAAAsAAAAAAAAAAAAQwCgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-08T17:12:01.982Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

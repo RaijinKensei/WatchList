@@ -1,0 +1,18 @@
+[
+  {
+    "ContainingType": "MovieWatchlist.Api.Controllers.SearchController",
+    "Method": "Get",
+    "RelativePath": "api/Search",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "title",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  }
+]

@@ -1,0 +1,31 @@
+﻿@model MovieWatchlist.Web.Models.MovieResult
+
+<h2>@Model.Title (@Model.Year)</h2>
+
+<p><strong>Genere:</strong> @Model.Genre</p>
+<p><strong>Regista:</strong> @Model.Director</p>
+<p><strong>Released:</strong> @Model.Released</p>
+<p><strong>Actors:</strong> @Model.Actors</p>
+<p><strong>Trama:</strong> @Model.Plot</p>
+
+
+@if (!string.IsNullOrEmpty(Model.Poster) && Model.Poster != "N/A")
+{
+    <img src="@Model.Poster" alt="Poster di @Model.Title" width="200" />
+}
+<br>
+<br>
+<!-----------------Lista valutazioni---------------------------->
+@if (Model.Ratings != null && Model.Ratings.Any())
+{
+    <h4>Valutazioni</h4>
+    <ul>
+        @foreach (var rating in Model.Ratings)
+        {
+            <li><strong>@rating.Source:</strong> @rating.Value</li>
+        }
+    </ul>
+}
+<!-------------------------------------------------------------->
+<br>
+<a href="@Url.Action("Index", "Home")">Torna alla ricerca</a>

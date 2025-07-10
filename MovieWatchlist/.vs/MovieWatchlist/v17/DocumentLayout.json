@@ -1,0 +1,170 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Utente\\source\\repos\\MovieWatchlist\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{57944DCF-8050-DFC6-365E-741175167B7F}|..\\MovieWatchlist.Api\\MovieWatchlist.Api.csproj|c:\\users\\utente\\source\\repos\\moviewatchlist.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8D250433-657E-4DB2-B93C-400FAA5023F7}|MovieWatchlist.Web.csproj|c:\\users\\utente\\source\\repos\\moviewatchlist\\models\\favouritemovie.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8D250433-657E-4DB2-B93C-400FAA5023F7}|MovieWatchlist.Web.csproj|solutionrelative:models\\favouritemovie.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8D250433-657E-4DB2-B93C-400FAA5023F7}|MovieWatchlist.Web.csproj|c:\\users\\utente\\source\\repos\\moviewatchlist\\views\\movies\\result.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{8D250433-657E-4DB2-B93C-400FAA5023F7}|MovieWatchlist.Web.csproj|solutionrelative:views\\movies\\result.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8D250433-657E-4DB2-B93C-400FAA5023F7}|MovieWatchlist.Web.csproj|c:\\users\\utente\\source\\repos\\moviewatchlist\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8D250433-657E-4DB2-B93C-400FAA5023F7}|MovieWatchlist.Web.csproj|solutionrelative:controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8D250433-657E-4DB2-B93C-400FAA5023F7}|MovieWatchlist.Web.csproj|c:\\users\\utente\\source\\repos\\moviewatchlist\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{8D250433-657E-4DB2-B93C-400FAA5023F7}|MovieWatchlist.Web.csproj|solutionrelative:views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{57944DCF-8050-DFC6-365E-741175167B7F}|..\\MovieWatchlist.Api\\MovieWatchlist.Api.csproj|c:\\users\\utente\\source\\repos\\moviewatchlist.api\\moviewatchlist.api.http||{5703B403-55E7-4C63-8C88-A8F52C7A45C5}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{57944DCF-8050-DFC6-365E-741175167B7F}|..\\MovieWatchlist.Api\\MovieWatchlist.Api.csproj|c:\\users\\utente\\source\\repos\\moviewatchlist.api\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8D250433-657E-4DB2-B93C-400FAA5023F7}|MovieWatchlist.Web.csproj|c:\\users\\utente\\source\\repos\\moviewatchlist\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8D250433-657E-4DB2-B93C-400FAA5023F7}|MovieWatchlist.Web.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8D250433-657E-4DB2-B93C-400FAA5023F7}|MovieWatchlist.Web.csproj|c:\\users\\utente\\source\\repos\\moviewatchlist\\views\\movies\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{8D250433-657E-4DB2-B93C-400FAA5023F7}|MovieWatchlist.Web.csproj|solutionrelative:views\\movies\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 5,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:1:0:{7f40df72-066b-4810-a08b-c0fbed76c948}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{57d563b6-44a5-47df-85be-f4199ad6b651}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "FavouriteMovie.cs",
+              "DocumentMoniker": "C:\\Users\\Utente\\source\\repos\\MovieWatchlist\\Models\\FavouriteMovie.cs",
+              "RelativeDocumentMoniker": "Models\\FavouriteMovie.cs",
+              "ToolTip": "C:\\Users\\Utente\\source\\repos\\MovieWatchlist\\Models\\FavouriteMovie.cs",
+              "RelativeToolTip": "Models\\FavouriteMovie.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-09T19:22:54.374Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\Utente\\source\\repos\\MovieWatchlist\\Views\\Movies\\Index.cshtml",
+              "RelativeDocumentMoniker": "Views\\Movies\\Index.cshtml",
+              "ToolTip": "C:\\Users\\Utente\\source\\repos\\MovieWatchlist\\Views\\Movies\\Index.cshtml",
+              "RelativeToolTip": "Views\\Movies\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-07-09T19:07:05.029Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\Utente\\source\\repos\\MovieWatchlist\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "C:\\Users\\Utente\\source\\repos\\MovieWatchlist\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAlAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-08T20:49:27.908Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\Utente\\source\\repos\\MovieWatchlist.Api\\Program.cs",
+              "RelativeDocumentMoniker": "..\\MovieWatchlist.Api\\Program.cs",
+              "ToolTip": "C:\\Users\\Utente\\source\\repos\\MovieWatchlist.Api\\Program.cs",
+              "RelativeToolTip": "..\\MovieWatchlist.Api\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAA4AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-08T20:42:59.001Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "launchSettings.json",
+              "DocumentMoniker": "C:\\Users\\Utente\\source\\repos\\MovieWatchlist.Api\\Properties\\launchSettings.json",
+              "RelativeDocumentMoniker": "..\\MovieWatchlist.Api\\Properties\\launchSettings.json",
+              "ToolTip": "C:\\Users\\Utente\\source\\repos\\MovieWatchlist.Api\\Properties\\launchSettings.json",
+              "RelativeToolTip": "..\\MovieWatchlist.Api\\Properties\\launchSettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAgAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-07-08T20:26:49.376Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "MovieWatchlist.Api.http",
+              "DocumentMoniker": "C:\\Users\\Utente\\source\\repos\\MovieWatchlist.Api\\MovieWatchlist.Api.http",
+              "RelativeDocumentMoniker": "..\\MovieWatchlist.Api\\MovieWatchlist.Api.http",
+              "ToolTip": "C:\\Users\\Utente\\source\\repos\\MovieWatchlist.Api\\MovieWatchlist.Api.http",
+              "RelativeToolTip": "..\\MovieWatchlist.Api\\MovieWatchlist.Api.http",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAA3AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003502|",
+              "WhenOpened": "2025-07-08T20:22:41.762Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "C:\\Users\\Utente\\source\\repos\\MovieWatchlist\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "C:\\Users\\Utente\\source\\repos\\MovieWatchlist\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABoAAAAdAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-07-08T20:13:42.519Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "HomeController.cs",
+              "DocumentMoniker": "C:\\Users\\Utente\\source\\repos\\MovieWatchlist\\Controllers\\HomeController.cs",
+              "RelativeDocumentMoniker": "Controllers\\HomeController.cs",
+              "ToolTip": "C:\\Users\\Utente\\source\\repos\\MovieWatchlist\\Controllers\\HomeController.cs",
+              "RelativeToolTip": "Controllers\\HomeController.cs",
+              "ViewState": "AgIAABQAAAAAAAAAAAA9wBgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-08T19:25:11.929Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Result.cshtml",
+              "DocumentMoniker": "C:\\Users\\Utente\\source\\repos\\MovieWatchlist\\Views\\Movies\\Result.cshtml",
+              "RelativeDocumentMoniker": "Views\\Movies\\Result.cshtml",
+              "ToolTip": "C:\\Users\\Utente\\source\\repos\\MovieWatchlist\\Views\\Movies\\Result.cshtml",
+              "RelativeToolTip": "Views\\Movies\\Result.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB4AAAA9AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-07-08T18:55:41.245Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

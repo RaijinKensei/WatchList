@@ -1,0 +1,19 @@
+﻿@{
+    ViewData["Title"] = "Home Page";
+}
+
+<div class="text-center">
+    <h1 class="display-4">MovieWatchlist</h1>
+    <BR>
+    @{
+        ViewData["Title"] = "Cerca un film";
+    }
+
+    <h2>@ViewData["Title"]</h2>
+
+    <form asp-action="Search" method="post">
+        <input type="text" name="title" placeholder="Inserisci titolo: " required />
+        <button type="submit">Cerca</button>
+    </form>
+
+</div>

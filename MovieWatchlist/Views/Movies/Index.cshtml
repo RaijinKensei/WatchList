@@ -1,0 +1,10 @@
+﻿@{
+    ViewData["Title"] = "Cerca un film";
+}
+
+<h2>@ViewData["Title"]</h2>
+
+<form asp-action="Search" method="post">
+    <input type="text" name="title" placeholder="Inserisci titolo: " required />
+    <button type="submit">Cerca</button>
+</form>
