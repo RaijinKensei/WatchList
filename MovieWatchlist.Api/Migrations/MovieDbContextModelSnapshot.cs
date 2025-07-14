@@ -40,7 +40,7 @@ namespace MovieWatchlist.Api.Migrations
 
                     b.HasKey("ImdbID");
 
-                    b.ToTable("FavoriteMovies");
+                    b.ToTable("FavoriteMovies", (string)null);
                 });
 #pragma warning restore 612, 618
         }

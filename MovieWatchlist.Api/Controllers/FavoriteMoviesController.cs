@@ -29,14 +29,21 @@ namespace MovieWatchlist.Api.Controllers
         }
 
         [HttpPost]
-        public async Task<ActionResult<FavoriteMovie>> AddFavorite(FavoriteMovie movie)
+        public async Task<ActionResult<FavoriteMovie>> AddFavorite([FromBody] FavoriteMovie movie)
         {
-            _context.FavoriteMovies.Add(movie);
-            await _context.SaveChangesAsync();
-            return CreatedAtAction(nameof(GetFavorites), new { id = movie.ImdbID }, new
+            try
             {
-                message = $"Movie '{movie.ImdbID}' added to the list."
-            });
+                _context.FavoriteMovies.Add(movie);
+                await _context.SaveChangesAsync();
+                return CreatedAtAction(nameof(GetFavorites), new { id = movie.ImdbID }, new
+                {
+                    message = $"Movie '{movie.ImdbID}' added to the list."
+                });
+            }
+            catch (Exception ex)
+            {
+                return StatusCode(500, $"Errore interno: {ex.Message}");
+            }
         }
 
         [HttpDelete("{imdbId}")]
@@ -48,7 +55,7 @@ namespace MovieWatchlist.Api.Controllers
 
             _context.FavoriteMovies.Remove(movie);
             await _context.SaveChangesAsync();
-            return Ok(new { message = $"Movie ID:'{imdbId}' removed from the list." });
+            return Ok(new { message = $"Film ID:'{imdbId}' rimosso dai preferiti." });
         }
     }
 }

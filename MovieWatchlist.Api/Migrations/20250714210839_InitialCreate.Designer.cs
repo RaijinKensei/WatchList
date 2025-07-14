@@ -11,7 +11,7 @@ using MovieWatchlist.Api.Models;
 namespace MovieWatchlist.Api.Migrations
 {
     [DbContext(typeof(MovieDbContext))]
-    [Migration("20250710215546_InitialCreate")]
+    [Migration("20250714210839_InitialCreate")]
     partial class InitialCreate
     {
         /// <inheritdoc />

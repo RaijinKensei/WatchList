@@ -9,7 +9,7 @@ builder.Services.AddControllers();
 
 builder.Services.AddHttpClient("MovieAPI", client =>
 {
-    client.BaseAddress = new Uri("https://localhost:5079"); 
+    client.BaseAddress = new Uri("https://moviewatchlistapi20250714201901-bkcpgeccgggcfzcv.canadacentral-01.azurewebsites.net"); 
 });
 
 //Db Context in SqlServer
@@ -20,6 +20,11 @@ builder.Services.AddDbContext<MovieDbContext>(options =>
 var app = builder.Build();
 
 // Configure the HTTP request pipeline.
+
+if (app.Environment.IsDevelopment())
+{
+    app.UseDeveloperExceptionPage();
+}
 
 app.UseHttpsRedirection();
 

@@ -11,10 +11,11 @@
 using System;
 using System.Reflection;
 
+[assembly: Microsoft.Extensions.Configuration.UserSecrets.UserSecretsIdAttribute("0c1fbd6c-11e5-4ca4-903b-c8b453d84b66")]
 [assembly: System.Reflection.AssemblyCompanyAttribute("MovieWatchlist.Api")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+42e6164de2f98414f5550e932edc0d6a83409835")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+c8dea6b27e2a2a23f12687dc3dfd742e43ce974d")]
 [assembly: System.Reflection.AssemblyProductAttribute("MovieWatchlist.Api")]
 [assembly: System.Reflection.AssemblyTitleAttribute("MovieWatchlist.Api")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
