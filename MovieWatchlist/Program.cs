@@ -3,9 +3,16 @@ var builder = WebApplication.CreateBuilder(args);
 // Add services to the container.
 builder.Services.AddControllersWithViews();
 
+var apiBaseUrl = builder.Configuration["ApiBaseUrl"];
+
+if (string.IsNullOrEmpty(apiBaseUrl))
+{
+    throw new Exception("ApiBaseUrl non configurato");
+}
+
 builder.Services.AddHttpClient("MovieAPI", client =>
 {
-    client.BaseAddress = new Uri("https://localhost:5079"); 
+    client.BaseAddress = new Uri(apiBaseUrl);
 });
 
 var app = builder.Build();
