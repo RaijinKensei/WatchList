@@ -1,15 +1,5 @@
 [
   {
-    "ContainingType": "MovieWatchlist.Api.Controllers.HomeController",
-    "Method": "Get",
-    "RelativePath": "",
-    "HttpMethod": "GET",
-    "IsController": true,
-    "Order": 0,
-    "Parameters": [],
-    "ReturnTypes": []
-  },
-  {
     "ContainingType": "MovieWatchlist.Api.Controllers.FavoritesController",
     "Method": "GetFavorites",
     "RelativePath": "api/Favorites",
@@ -43,17 +33,7 @@
         "IsRequired": true
       }
     ],
-    "ReturnTypes": [
-      {
-        "Type": "FavoriteMovie",
-        "MediaTypes": [
-          "text/plain",
-          "application/json",
-          "text/json"
-        ],
-        "StatusCode": 200
-      }
-    ]
+    "ReturnTypes": []
   },
   {
     "ContainingType": "MovieWatchlist.Api.Controllers.FavoritesController",
@@ -72,16 +52,6 @@
     "ReturnTypes": []
   },
   {
-    "ContainingType": "MovieWatchlist.Api.Controllers.FavoritesController",
-    "Method": "Test",
-    "RelativePath": "api/Favorites/test",
-    "HttpMethod": "GET",
-    "IsController": true,
-    "Order": 0,
-    "Parameters": [],
-    "ReturnTypes": []
-  },
-  {
     "ContainingType": "MovieWatchlist.Api.Controllers.SearchController",
     "Method": "Get",
     "RelativePath": "api/Search",
@@ -95,6 +65,16 @@
         "IsRequired": false
       }
     ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "MovieWatchlist.Api.Controllers.HomeController",
+    "Method": "Get",
+    "RelativePath": "Home",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
     "ReturnTypes": []
   }
 ]

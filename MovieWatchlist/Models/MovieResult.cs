@@ -11,6 +11,7 @@
         public string Released { get; set; }
         public string Runtime { get; set; }
         public string Actors { get; set; }
+        public string ImdbID { get; set; }
         public List<Rating> Ratings { get; set; }
 
     }

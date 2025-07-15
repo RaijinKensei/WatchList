@@ -15,30 +15,37 @@ namespace MovieWatchlist.Api.Controllers
         {
             _context = context;
         }
-
+        //chiamata per recuperare la lista di film aggiunti ai preferiti
         [HttpGet]
         public async Task<ActionResult<IEnumerable<FavoriteMovie>>> GetFavorites()
         {
             return await _context.FavoriteMovies.ToListAsync();
         }
 
-        [HttpGet("test")]
+        /**[HttpGet("test")]
         public IActionResult Test()
         {
             return Ok(new { message = "Funziona!" });
-        }
+        }**/
 
+        //chiamata per aggiungere ai preferiti il film ricercato
         [HttpPost]
-        public async Task<ActionResult<FavoriteMovie>> AddFavorite([FromBody] FavoriteMovie movie)
+        public async Task<ActionResult> AddFavorite([FromBody] FavoriteMovie movie)
         {
+            // Controllo esplicito: il film è già tra i preferiti?
+            var exists = await _context.FavoriteMovies.AnyAsync(f => f.ImdbID == movie.ImdbID);
+            if (exists)
+            {
+                return Conflict(new { message = $"Film con ID '{movie.ImdbID}' è già tra i preferiti." });
+            }
+
             try
             {
                 _context.FavoriteMovies.Add(movie);
                 await _context.SaveChangesAsync();
-                return CreatedAtAction(nameof(GetFavorites), new { id = movie.ImdbID }, new
-                {
-                    message = $"Movie '{movie.ImdbID}' added to the list."
-                });
+
+                return CreatedAtAction(nameof(GetFavorites), new { id = movie.ImdbID },
+                    new { message = $"Film '{movie.ImdbID}' aggiunto." });
             }
             catch (Exception ex)
             {
@@ -46,6 +53,7 @@ namespace MovieWatchlist.Api.Controllers
             }
         }
 
+        //chiamata per eliminare tramite imdbId il film dalla lista dei preferiti
         [HttpDelete("{imdbId}")]
         public async Task<IActionResult> DeleteFavorite(string imdbId)
         {

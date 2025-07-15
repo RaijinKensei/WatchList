@@ -30,6 +30,10 @@ namespace MovieWatchlist.Api.Migrations
                         .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
+                    b.Property<string>("Poster")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
                     b.Property<string>("Title")
                         .IsRequired()
                         .HasColumnType("nvarchar(max)");
@@ -40,7 +44,7 @@ namespace MovieWatchlist.Api.Migrations
 
                     b.HasKey("ImdbID");
 
-                    b.ToTable("FavoriteMovies", (string)null);
+                    b.ToTable("FavoriteMovies");
                 });
 #pragma warning restore 612, 618
         }

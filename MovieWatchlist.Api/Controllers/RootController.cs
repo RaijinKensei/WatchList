@@ -3,7 +3,7 @@
 namespace MovieWatchlist.Api.Controllers
 {
     [ApiController]
-    [Route("/")]  // route root
+    [Route("/Home")]
     public class HomeController : ControllerBase
     {
 
@@ -11,7 +11,7 @@ namespace MovieWatchlist.Api.Controllers
         [HttpGet]
         public IActionResult Get()
         {
-            return Ok("API MovieWatchlist On");
+            return Ok("API MovieWatchlist Root");
         }
 
 

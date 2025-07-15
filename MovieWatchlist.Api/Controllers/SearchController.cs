@@ -21,7 +21,7 @@ namespace MovieWatchlist.Api.Controllers
             _configuration = configuration;
 
         }
-
+        //chiamata verso l'api OMDB per ricercare i film tramite la key di registrazione
         [HttpGet]
         public async Task<IActionResult> Get(string title)
         {

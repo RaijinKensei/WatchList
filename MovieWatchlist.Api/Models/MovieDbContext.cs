@@ -8,5 +8,16 @@ namespace MovieWatchlist.Api.Models
 
         public DbSet<FavoriteMovie> FavoriteMovies { get; set; }
 
+        protected override void OnModelCreating(ModelBuilder modelBuilder)
+        {
+            base.OnModelCreating(modelBuilder);
+
+            // Vincolo unique su chiave ImdbID
+            modelBuilder.Entity<FavoriteMovie>()
+                .HasIndex(f => f.ImdbID)
+                .IsUnique();
+        }
+
+
     }
 }
