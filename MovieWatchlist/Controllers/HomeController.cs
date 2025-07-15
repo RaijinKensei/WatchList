@@ -10,7 +10,7 @@ using System.Threading.Tasks;
 
 public class HomeController : Controller
 {
-    private readonly MovieDbContext _dbContext;
+
     private readonly IHttpClientFactory _httpClientFactory;
 
     public HomeController(IHttpClientFactory httpClientFactory)
