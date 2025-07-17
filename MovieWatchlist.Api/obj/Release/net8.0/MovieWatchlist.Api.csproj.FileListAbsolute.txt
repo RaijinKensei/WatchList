@@ -1,5 +1,3 @@
-C:\Users\Utente\source\repos\WatchList\MovieWatchlist.Api\bin\Release\net8.0\appsettings.Development.json
-C:\Users\Utente\source\repos\WatchList\MovieWatchlist.Api\bin\Release\net8.0\appsettings.json
 C:\Users\Utente\source\repos\WatchList\MovieWatchlist.Api\bin\Release\net8.0\MovieWatchlist.Api.staticwebassets.endpoints.json
 C:\Users\Utente\source\repos\WatchList\MovieWatchlist.Api\bin\Release\net8.0\MovieWatchlist.Api.exe
 C:\Users\Utente\source\repos\WatchList\MovieWatchlist.Api\bin\Release\net8.0\MovieWatchlist.Api.deps.json
@@ -165,3 +163,5 @@ C:\Users\Utente\source\repos\WatchList\MovieWatchlist.Api\obj\Release\net8.0\ref
 C:\Users\Utente\source\repos\WatchList\MovieWatchlist.Api\obj\Release\net8.0\MovieWatchlist.Api.pdb
 C:\Users\Utente\source\repos\WatchList\MovieWatchlist.Api\obj\Release\net8.0\MovieWatchlist.Api.genruntimeconfig.cache
 C:\Users\Utente\source\repos\WatchList\MovieWatchlist.Api\obj\Release\net8.0\ref\MovieWatchlist.Api.dll
+C:\Users\Utente\source\repos\WatchList\MovieWatchlist.Api\bin\Release\net8.0\Api\appsettings.Development.json
+C:\Users\Utente\source\repos\WatchList\MovieWatchlist.Api\bin\Release\net8.0\Api\appsettings.json

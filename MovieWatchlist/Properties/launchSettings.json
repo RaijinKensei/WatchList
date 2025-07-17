@@ -22,7 +22,7 @@
       "commandName": "Project",
       "dotnetRunMessages": true,
       "launchBrowser": true,
-      "applicationUrl": "https://localhost:7284;http://localhost:5263",
+      "applicationUrl": "https://moviewatchlistweb20250716185919-fahtfbh0h9aadqhg.canadacentral-01.azurewebsites.net;https://localhost:7284",
       "environmentVariables": {
         "ASPNETCORE_ENVIRONMENT": "Development"
       }

@@ -6,11 +6,6 @@
         "Path": "MovieWatchlist.Web.csproj",
         "Action": "Start",
         "DebugTarget": "https"
-      },
-      {
-        "Path": "..\\MovieWatchlist.Api\\MovieWatchlist.Api.csproj",
-        "Action": "Start",
-        "DebugTarget": "https"
       }
     ]
   }

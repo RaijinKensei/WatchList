@@ -1,6 +1,6 @@
 C:\Users\Utente\source\repos\WatchList\MovieWatchlist.Api\obj\Release\net8.0\PubTmp\Out\MovieWatchlist.Api.exe
-C:\Users\Utente\source\repos\WatchList\MovieWatchlist.Api\obj\Release\net8.0\PubTmp\Out\appsettings.Development.json
-C:\Users\Utente\source\repos\WatchList\MovieWatchlist.Api\obj\Release\net8.0\PubTmp\Out\appsettings.json
+C:\Users\Utente\source\repos\WatchList\MovieWatchlist.Api\obj\Release\net8.0\PubTmp\Out\Api\appsettings.Development.json
+C:\Users\Utente\source\repos\WatchList\MovieWatchlist.Api\obj\Release\net8.0\PubTmp\Out\Api\appsettings.json
 C:\Users\Utente\source\repos\WatchList\MovieWatchlist.Api\obj\Release\net8.0\PubTmp\Out\MovieWatchlist.Api.dll
 C:\Users\Utente\source\repos\WatchList\MovieWatchlist.Api\obj\Release\net8.0\PubTmp\Out\MovieWatchlist.Api.runtimeconfig.json
 C:\Users\Utente\source\repos\WatchList\MovieWatchlist.Api\obj\Release\net8.0\PubTmp\Out\MovieWatchlist.Api.pdb

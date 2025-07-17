@@ -1,5 +1,8 @@
 var builder = WebApplication.CreateBuilder(args);
 
+// Aggiungi questa riga PRIMA di accedere alla configurazione
+builder.Configuration.AddJsonFile("web/appsettings.json", optional: false, reloadOnChange: true);
+
 // Add services to the container.
 builder.Services.AddControllersWithViews();
 

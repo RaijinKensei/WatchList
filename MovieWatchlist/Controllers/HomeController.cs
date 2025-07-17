@@ -1,12 +1,12 @@
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
-using MovieWatchlist.Api.Models;
 using MovieWatchlist.Web.Models;
 using System.Net;
 using System.Net.Http;
 using System.Net.Http.Json;
 using System.Text.Json;
 using System.Threading.Tasks;
+
 
 public class HomeController : Controller
 {
@@ -41,7 +41,9 @@ public class HomeController : Controller
 
         if (!response.IsSuccessStatusCode)
         {
-            return RedirectToAction("Index");
+            // Logga l’errore e gestisci la situazione
+            var error = await response.Content.ReadAsStringAsync();
+            // Mostra un messaggio o restituisci una view di errore
         }
 
         var content = await response.Content.ReadAsStringAsync();
@@ -82,13 +84,19 @@ public class HomeController : Controller
     {
 
         var api = _httpClientFactory.CreateClient();
-        
-        //recupera tutta la lista dei preferiti
-        var favorites = await api.GetFromJsonAsync<List<MovieResult>>(
-            "https://moviewatchlistapi20250714201901-bkcpgeccgggcfzcv.canadacentral-01.azurewebsites.net/api/Favorites"
-        );
 
-        // Passa la lista di preferiti alla view
+        List<MovieResult> favorites = new();
+        try
+        {
+            favorites = await api.GetFromJsonAsync<List<MovieResult>>(
+                "https://moviewatchlistapi20250714201901-bkcpgeccgggcfzcv.canadacentral-01.azurewebsites.net/api/Favorites"
+            ) ?? new List<MovieResult>();
+        }
+        catch (Exception ex)
+        {
+            // Logga l’errore e mostra una view di fallback
+            TempData["Msg"] = "Errore nel recupero dei preferiti.";
+        }
         return View("~/Views/Movies/Favorites.cshtml", favorites);
 
     }

@@ -32,4 +32,11 @@ app.UseAuthorization();
 
 app.MapControllers();
 
+// Redirect dalla root "/" a "/api/search"
+app.MapGet("/", context =>
+{
+    context.Response.Redirect("/api/search/?title=The+Matrix");
+    return Task.CompletedTask;
+});
+
 app.Run();

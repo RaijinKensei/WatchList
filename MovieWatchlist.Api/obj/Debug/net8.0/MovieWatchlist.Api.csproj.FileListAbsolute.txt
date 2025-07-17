@@ -164,8 +164,6 @@ C:\Users\Utente\source\repos\MovieWatchlist.Api\bin\Debug\net8.0\runtimes\browse
 C:\Users\Utente\source\repos\MovieWatchlist.Api\bin\Debug\net8.0\runtimes\win\lib\net6.0\System.Windows.Extensions.dll
 C:\Users\Utente\source\repos\MovieWatchlist.Api\obj\Debug\net8.0\MovieWatchlist.Api.csproj.AssemblyReference.cache
 C:\Users\Utente\source\repos\MovieWatchlist.Api\obj\Debug\net8.0\MovieWat.852D3A60.Up2Date
-C:\Users\Utente\source\repos\WatchList\MovieWatchlist.Api\bin\Debug\net8.0\appsettings.Development.json
-C:\Users\Utente\source\repos\WatchList\MovieWatchlist.Api\bin\Debug\net8.0\appsettings.json
 C:\Users\Utente\source\repos\WatchList\MovieWatchlist.Api\bin\Debug\net8.0\MovieWatchlist.Api.staticwebassets.endpoints.json
 C:\Users\Utente\source\repos\WatchList\MovieWatchlist.Api\bin\Debug\net8.0\MovieWatchlist.Api.exe
 C:\Users\Utente\source\repos\WatchList\MovieWatchlist.Api\bin\Debug\net8.0\MovieWatchlist.Api.deps.json
@@ -331,3 +329,5 @@ C:\Users\Utente\source\repos\WatchList\MovieWatchlist.Api\obj\Debug\net8.0\Movie
 C:\Users\Utente\source\repos\WatchList\MovieWatchlist.Api\obj\Debug\net8.0\MovieWatchlist.Api.genruntimeconfig.cache
 C:\Users\Utente\source\repos\WatchList\MovieWatchlist.Api\obj\Debug\net8.0\ref\MovieWatchlist.Api.dll
 C:\Users\Utente\source\repos\WatchList\MovieWatchlist.Api\obj\Debug\net8.0\staticwebassets.upToDateCheck.txt
+C:\Users\Utente\source\repos\WatchList\MovieWatchlist.Api\bin\Debug\net8.0\Api\appsettings.Development.json
+C:\Users\Utente\source\repos\WatchList\MovieWatchlist.Api\bin\Debug\net8.0\Api\appsettings.json

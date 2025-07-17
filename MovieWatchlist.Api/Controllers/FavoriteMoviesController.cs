@@ -36,7 +36,7 @@ namespace MovieWatchlist.Api.Controllers
             var exists = await _context.FavoriteMovies.AnyAsync(f => f.ImdbID == movie.ImdbID);
             if (exists)
             {
-                return Conflict(new { message = $"Film con ID '{movie.ImdbID}' è già tra i preferiti." });
+                return Conflict(new { message = $"Il Film è già presente tra i preferiti!" });
             }
 
             try
@@ -45,7 +45,7 @@ namespace MovieWatchlist.Api.Controllers
                 await _context.SaveChangesAsync();
 
                 return CreatedAtAction(nameof(GetFavorites), new { id = movie.ImdbID },
-                    new { message = $"Film '{movie.ImdbID}' aggiunto." });
+                    new { message = $"Film aggiunto ai preferiti!" });
             }
             catch (Exception ex)
             {

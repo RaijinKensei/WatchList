@@ -44,6 +44,9 @@ namespace MovieWatchlist.Api.Migrations
 
                     b.HasKey("ImdbID");
 
+                    b.HasIndex("ImdbID")
+                        .IsUnique();
+
                     b.ToTable("FavoriteMovies");
                 });
 #pragma warning restore 612, 618
